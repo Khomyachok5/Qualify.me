@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+.main_page_background {
+background-image: url(http://www.w3schools.com/images/compatible_chrome.gif)
+}

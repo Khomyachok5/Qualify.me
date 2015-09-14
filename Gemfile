@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#Carrierwave gem for file and background upload
+gem 'carrierwave', '~> 0.10.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'

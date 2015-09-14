@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   resources :topics, only: [:index]
 
+  get '/admin', to: 'admins#manage'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
